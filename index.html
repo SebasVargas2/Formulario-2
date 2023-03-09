@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>TITLE</h1>
+    <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum.</h3><br>
+    <form action="#" method="get">
+        
+        <label for="name">Name</label><br>
+        <input type="text" name="" id="name" required autofocus placeholder="Escribe tu nombre" class="ingresos"><br><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" required placeholder="Ingresa tu email" class="ingresos"><br><br>
+        <label for="age">Age <span>(Optional)</span></label><br>
+        <input type="number" name="" id="age" min="0" max="100" placeholder="Escribe tu edad" class="ingresos"><br><br>
+        <label for="role">Which option best describes your current role</label><br>
+        <select name="" id="role" required class="seleccion">
+            <option value="">Select current rule</option>
+            <option value="1">lorem asdasdasd</option>
+            <option value="2">Lorem ipsum dolor</option>
+        </select><br><br>
+
+        <label>Would you recommend freeCodeCamp to a friend?</label><br>
+
+        <div>
+            <input type="radio" name="xd" id="select" required>
+            <label for="select" class="radius">Definitely</label>
+        </div>
+        <div>
+            <input type="radio" name="xd" id="select2" required>
+            <label for="select2" class="radius">Maybe</label>
+        </div>
+        <div>
+            <input type="radio" name="xd" id="select3" required>
+            <label for="select3" class="radius">Not Sure</label>
+        </div><br>
+
+
+        <label for="feature">What is your favorite feature of freeCodeCamp?</label><br>
+        <select name="" id="feature" required class="seleccion">
+            <option value="">Select an option</option>
+            <option value="1">lorem asdasdasd</option>
+            <option value="2">Lorem ipsum dolor</option>
+        </select><br><br>
+        <label>What would you like to see improved? <span>(Check all that apply)</span></label><br>
+
+        <div class="fff">
+        <input type="checkbox" name="" id="one">
+        <label for="one" class="radius">Front-end Projects</label><br>
+
+        <input type="checkbox" name="" id="two"> 
+        <label for="two" class="radius">Back-end Projects</label><br>
+
+        <input type="checkbox" name="" id="three">
+        <label for="three" class="radius">Data visualization</label><br>
+
+        <input type="checkbox" name="" id="four"> 
+        <label for="four" class="radius">Challenges.</label><br>
+        
+        <input type="checkbox" name="" id="five"> 
+        <label for="five" class="radius">Open Source Community</label><br>
+
+        <input type="checkbox" name="" id="six"> 
+        <label for="six" class="radius">Gitter help rooms</label><br>
+
+        <input type="checkbox" name="" id="seven"> 
+        <label for="seven" class="radius">Videos</label><br>
+
+        <input type="checkbox" name="" id="eigth"> 
+        <label for="eigth" class="radius">Additional Courses</label><br><br>
+        </div>
+
+        <label for="space">Any comments or suggestions?</label><br>
+        <textarea name="" id="space" placeholder="Enter your comment here..."></textarea><br><br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
